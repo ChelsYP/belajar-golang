@@ -2,16 +2,23 @@ package main
 
 import "fmt"
 
-func main(){
-	var myMap map[string]int
-	myMap = map[string]int{}
 
-	myMap["Solana"] = 9
-	myMap["Soldiity"] = 9
-	myMap["Base"] = 10
+func main() {
+	bahasaPemrograman := []string{"Solidity", "solana", "Base"}
 
-	fmt.Println(myMap) 
+	fmt.Println(bahasaPemrograman)
 }
+
+// func main(){
+// 	var myMap map[string]int
+// 	myMap = map[string]int{}
+
+// 	myMap["Solana"] = 9
+// 	myMap["Soldiity"] = 9
+// 	myMap["Base"] = 10
+
+// 	fmt.Println(myMap) 
+// }
 
 
 
